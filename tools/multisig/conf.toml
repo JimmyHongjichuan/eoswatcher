@@ -1,0 +1,10 @@
+[EOS]
+#base_url = "http://jungle.eosbcn.com:8080"
+#base_url = "http://jungle.cryptolions.io:18888"
+base_url = "https://api-kylin.eosasia.one"
+[PKM]
+url = "http://47.97.167.221:8976"
+service_id = "cda298df-4c48-421f-b337-04c0ce245965"
+keystore_private_key = "A549FE4EF86F1B086FDB1A26D27DBE79B3DBA6B74FC5EAD39A2258C7E2FC6C42"
+pub_hash_hex = ""
+pub_key_hash = ""

@@ -1,0 +1,36 @@
+[EOS]
+#base_url = "http://47.97.167.221:8888" #测试链
+#base_url = "http://api.bp.antpool.com:80" #蚂蚁矿池
+#base_url = "http://47.97.167.221:8888"
+base_url = "https://api-kylin.eosasia.one" #eosasia kylin测试链
+[LEVELDB]
+eos_db_path = "/Users/cgitb1808070005/tmp/eosLevelDB"
+#有特殊交易
+scan_height = 9919455
+#普通转账
+#scan_height = 11387377
+
+[ES]
+server = "http://47.98.185.203:8580"  #测试ES
+alias_name = "eos-tranx"
+unconfirm_tx_index = "eos-tranx-unconfirm"
+irreverisible_tx_index = "eos-tranx"
+index_type = "_doc"
+
+[REDIS]
+url = ["[47.98.185.203]:26379"]
+#url = ["[47.98.185.203]:6379"]
+master = "dev"
+auth = "EYLFAWnC+hHulkDCRTet44bJMM"
+db = 6
+pool_maxidle = 50
+pool_maxactive = 50
+is_push = 1
+tx_push_key = "wallet_test_topic"
+
+[KEYSTORE]
+url = "http://47.97.167.221:8976"
+service_id = "cda298df-4c48-421f-b337-04c0ce245965"
+keystore_private_key = "A549FE4EF86F1B086FDB1A26D27DBE79B3DBA6B74FC5EAD39A2258C7E2FC6C42"
+pub_hash_hex = ""
+pub_key_hash = ""
